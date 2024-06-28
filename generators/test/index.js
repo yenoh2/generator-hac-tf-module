@@ -1,8 +1,8 @@
 'use strict';
 
-const Generator = require('yeoman-generator');
+import Generator from 'yeoman-generator';
 
-module.exports = class extends Generator {
+export default class extends Generator {
   constructor(args, opts) {
     super(args, opts);
   }

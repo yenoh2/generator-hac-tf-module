@@ -1,10 +1,11 @@
 {
-  "name": "generator-az-terra-module",
+  "name": "generator-hac-tf-module",
   "version": "0.5.0",
   "description": "Create an Azure terraform module project along with terratest.",
+  "type": "module",
   "author": {
     "name": "Microsoft Corporation",
-    "url": "https://github.com/Azure/generator-az-terra-module"
+    "url": "https://github.com/Azure/generator-hac-tf-module"
   },
   "files": [
     "generators"
@@ -21,16 +22,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Azure/generator-az-terra-module"
+    "url": "https://github.com/Azure/generator-hac-tf-module"
   },
   "license": "MIT",
   "dependencies": {
     "generator-license": "^5.4.0",
     "inquirer-npm-name": "^2.0.0",
     "lodash": "^4.17.4",
-    "yeoman-generator": "^2.0.0"
+    "yeoman-generator": "^7.3.2"
   },
   "bugs": {
-    "url": "https://github.com/Azure/generator-az-terra-module/issues"
+    "url": "https://github.com/Azure/generator-hac-tf-module/issues"
   }
 }
