@@ -1,10 +1,10 @@
 # Contributing
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+This project has been refactored to work with Yeoman yo v5.0.0. It resolves the Generator.run is not a function error
 
 # Azure Terraform Module Generator
 
-`generator-az-terra-module` creates base template to start a new terraform module along with terratest for automatically testing the module.
+`generator-hac-tf-module` creates base template to start a new terraform module along with terratest for automatically testing the module.
 
 ![Terraform module template walkthrough](/doc/scaffolding.934x477.gif)
 
@@ -12,12 +12,14 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 
 1. Install latest [Node LTS](https://nodejs.org).
 2. `npm install -g yo`
-3. `npm install -g generator-az-terra-module`
+3. ~~`npm install -g generator-az-terra-module`~~
+3. Clone this repository to your machine
+4. On the command line, from the root of this project run `npm link`
 
 ## Usage
 
 ```
-$ yo az-terra-module
+$ yo hac-tf-module
 ```
 
 ***NOTE:** This template will generate files in the **current directory**, so be sure to always run it against a new directory.*
